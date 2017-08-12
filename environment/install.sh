@@ -32,4 +32,4 @@ brew cask install haskell-platform
 brew install elm
 
 cd ~
-rm -r Environment/
+sudo rm -r Environment/
