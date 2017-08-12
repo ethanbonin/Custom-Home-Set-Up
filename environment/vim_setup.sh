@@ -37,6 +37,9 @@ cd ycm_build
 cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
 cd ~/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tern_runtime
 npm install --production
+cd ~/.vim/bundle/YouCompleteMe/
+sh install.sh
+./install.py --tern-completer
 printf "${NORMAL}"
 
 
