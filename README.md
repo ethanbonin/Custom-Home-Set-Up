@@ -9,7 +9,7 @@ You can download everything
 
 
 ```
-git clone https://github.com/ethanbonin/Custom-Home-Set-Up.git ~/Environment && sh ~/Environment/Custom-Home-Set-Up/environment/install.sh
+git clone https://github.com/ethanbonin/Custom-Home-Set-Up.git ~/Environment && sh ~/Environment/environment/install.sh
 ```
 
 
