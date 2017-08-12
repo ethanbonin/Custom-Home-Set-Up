@@ -3,6 +3,7 @@ NORMAL="$(tput sgr0)"
 
 
 #Install Homebrew. Package manager to easily install stuff
+echo "\n\nInstalling Homebrew\n\n"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #This is to install command line tools from xcode without downloading xcode
@@ -12,8 +13,6 @@ sh custom_npm_node_setup.sh
 sh custom_ohmyzsh.sh
 sh custom_ruby_on_rails.sh
 sh vim_setup.sh
-
-
 
 #Install git
 echo "\n\n\nInstalling Git\n\n\n"
