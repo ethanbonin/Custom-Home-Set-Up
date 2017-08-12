@@ -57,3 +57,4 @@ echo set ic >> .vimrc
 echo set number >> .vimrc
 echo let g:jsx_ext_required = 0 >> .vimrc
 echo let g:javascript_plugin_jsdoc = 1 >> .vimrc
+echo map <C-n> :NERDTreeToggle<CR>
