@@ -36,4 +36,3 @@ sh install.sh
 cd ~
 
 
-npm install -g spaceship-zsh-theme

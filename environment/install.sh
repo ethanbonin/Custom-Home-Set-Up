@@ -8,6 +8,10 @@ NORMAL="$(tput sgr0)"
 #This is to install command line tools from xcode without downloading xcode
 gcc
 
+sh custom_npm_node_setup.sh
+sh custom_ohmyzsh.sh
+sh custom_ruby_on_rails.sh
+sh vim_setup.sh
 
 
 
