@@ -36,10 +36,18 @@ echo set undolevels=1000 >> .vimrc
 echo set shell=bash'\' -i >> .vimrc
 echo set scrolloff=5 >> .vimrc
 echo set t_Co=256 >> .vimrc
+echo set laststatus=2
 echo  >> .vimrc
 echo >> .vimrc
 echo >> .vimrc
 
+echo if !has('gui_running') >> .vimrc
+echo   set t_Co=256 >> .vimrc
+echo endif >> .vimrc
+
+
+echo >> .vimrc
+echo >> .vimrc
 echo "--Writing custom editing preferences to .vimrc"
 echo '"'Custom Editing Preferences >> .vimrc
 echo set mouse=a >> .vimrc
