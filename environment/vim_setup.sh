@@ -23,8 +23,21 @@ git clone git://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
 git clone https://github.com/scrooloose/syntastic ~/.vim/bundle/syntastic
 git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
+git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 
-
+printf "${RED}"
+echo "Installing Syntastic Components"
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+cd ~
+brew install cmake
+cd ~
+mkdir ycm_build
+cd ycm_build
+cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+cd ~/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tern_runtime
+npm install --production
+printf "${NORMAL}"
 
 
 echo "\n\n--Writing Custom Preferences to .vimrc"
