@@ -9,10 +9,10 @@ echo "\n\nInstalling Homebrew\n\n"
 #This is to install command line tools from xcode without downloading xcode
 gcc
 
-sh custom_npm_node_setup.sh
-sh custom_ohmyzsh.sh
-sh custom_ruby_on_rails.sh
-sh vim_setup.sh
+sh ~/Environment/environment/custom_npm_node_setup.sh
+sh ~/Environment/environment/custom_ohmyzsh.sh
+sh ~/Environment/environment/custom_ruby_on_rails.sh
+sh ~/Environment/environment/vim_setup.sh
 
 #Install git
 echo "\n\n\nInstalling Git\n\n\n"
