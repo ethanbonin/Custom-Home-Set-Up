@@ -24,6 +24,7 @@ git clone https://github.com/scrooloose/syntastic ~/.vim/bundle/syntastic
 git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 
 printf "${RED}"
 echo "Installing Syntastic Components"
@@ -74,3 +75,7 @@ echo set number >> .vimrc
 echo let g:jsx_ext_required = 0 >> .vimrc
 echo let g:javascript_plugin_jsdoc = 1 >> .vimrc
 echo map <C-n> :NERDTreeToggle<CR>
+
+
+
+
