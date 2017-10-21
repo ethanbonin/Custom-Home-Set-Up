@@ -7,3 +7,6 @@ npm install -g react-dom --save
 npm install -g watchman --save
 npm install -g create-react-native-app --save
 npm install -g react-native-cli
+npm install -g nodemon
+npm install -g create-react-app
+

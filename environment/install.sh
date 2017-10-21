@@ -13,6 +13,8 @@ sh ~/Environment/environment/custom_npm_node_setup.sh
 sh ~/Environment/environment/custom_ohmyzsh.sh
 sh ~/Environment/environment/custom_ruby_on_rails.sh
 sh ~/Environment/environment/vim_setup.sh
+sh ~/Environment/environment/custom_apm_packages.sh
+
 
 #Install git
 echo "\n\n\nInstalling Git\n\n\n"
