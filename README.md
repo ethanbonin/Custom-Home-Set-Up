@@ -3,7 +3,7 @@
 This is my custom setup for when I erase my Mac everytime.
 The reason I created this is because I got tired of redownloading everything.
 
-Before you continue, make sure that you download **_iTerm_**
+Before you continue, make sure that you download **_iTerm_** (__Note to self: 😒 Don't use iTerm. Terminal is great.__) 
 
 You can download everything
 
